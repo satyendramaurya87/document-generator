@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.editor-wrapper {
+  margin-top: 20px;
+}
+
+.csv-button {
+  margin-right: 10px !important;
+}
+
+.toolbar-button {
+  margin: 0 5px !important;
+}
+
+.editor-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  min-height: 400px;
+  margin-top: 20px;
+}
+
+.csv-preview {
+  margin-top: 30px;
+}
+
+.csv-preview-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.csv-preview-table th,
+.csv-preview-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.csv-preview-table th {
+  background-color: #f2f2f2;
+}
+
+.csv-preview-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
